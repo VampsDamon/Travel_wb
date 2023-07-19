@@ -252,7 +252,6 @@ row::after {
 
 .about{
   padding: 5rem 0;
-  border: 2px solid red;
 }
 .about-heading::after{
   content: '';
@@ -294,30 +293,306 @@ row::after {
 
 
 .about-number{
-  border: 4px solid red;
+  margin-top: 3rem;
 }
 .abtnumber{
   text-align: center;
-  margin: 0 11em;
-  
+  width: 25%;
+  float: left;
 }
 .abtnumber h2{
-  font-weight: 800;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #e63946;
+
 }
-.abtnumber1{
-  float: left;
-}
-.abtnumber2{
-  float: left;
-}
-.abtnumber3{
-  float: left;
-}
-.abtnumber4{
-  float: left;
+.abtnumber p{
+  font-weight: 700;
+  color: #555555;
+  font-size: 1.8rem;
 }
 .about-number::after{
   content: '';
   display: block;
   clear: both;
+}
+
+
+.abt-footer{
+  margin-top: 2rem;
+  padding: 1rem;
+  color: #f4f4f4;
+  background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
+  box-shadow: 5px 5px 10px #00000050;
+}
+.abt-footer-left{
+  float: left;
+  width: 60%;
+}
+.abt-footer-right{
+  float: right;
+  width: 40%;
+  text-align: center;
+  text-align: right;
+
+}
+.abt-footer::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.abt-footer-content{
+  font-weight: 700;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+
+}
+.btn-abt{
+  text-align: center;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  border: 4px solid white;
+  padding: 0.3em 2.5em;
+  letter-spacing: 0.5rem;
+  color: #f4f4f4;
+
+}
+
+
+/* ##################################### CONTACT PAGE STYLING###################### */
+.contact-form{
+  padding: 5rem 0;
+  background: #f4f4f4;
+
+  
+}
+.form-wrapper{
+ 
+}
+.form-wrapper::after{
+  content: '';
+  display: block;
+  clear: both;
+
+}
+.company-add{
+  float: left;
+  width: 48%;
+  color: #555555;
+  background-color: #fff;
+  height: 740px;
+  padding: 1rem;
+}
+
+.form{
+  font-size:1.6rem ;
+  float: right;
+  width: 48%;
+  background-color: #fff;
+  padding: 1rem;
+  height: 740px;
+}
+.addinfo{
+  margin-bottom:3rem ;
+
+}
+
+.company-add h2{
+  text-transform: uppercase;
+  font-weight: 400;
+}
+.company-add h2 i{
+  margin-right: .2em;
+}
+
+.company-img{
+  
+  object-fit: cover;
+  object-position: right;
+  max-width: 90%;
+  min-height: 40rem;
+}
+.form h2{
+  letter-spacing: .2em;
+    font-size: 2.5rem;
+}
+.form h2::after{
+  content: '';
+  display: block;
+  border: 3px solid #e63946;
+  width: 100%;
+}
+
+label{
+  display: block;
+  font-size: 1.5rem;
+}
+label::after{
+  content: '*';
+  color: #e63946;
+}
+input{
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.form-inputs{
+  margin-bottom: 1.2rem;
+}
+textarea{
+  width: 100%;
+  height: 300px;
+  padding: 1rem;
+}
+
+.summitBTN{
+  display: block;
+  margin: 0 auto;
+  padding: .5em 3em;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  background: #e63946;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor:pointer ;
+
+}
+
+
+/* ######################### Media Queries ################# */
+
+
+@media (max-width: 500px){
+  html{
+    font-size: 50%;
+
+  }
+  .navbar .nav-items,.navbar .Logo{
+    float: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .header-content .descriptipn{
+    display: none;
+  }
+  .header-content a{
+    padding: .5em;
+    font-size: 2rem;
+    border-radius: 25px;
+
+  }
+  .row{
+    height: auto;
+    width: 100%;
+  }
+  .row .img-box, .row .text-box{
+    float: none;
+    width: 100%;
+    text-align: center;
+
+  }
+  .box{
+    float: none;
+    width:100%;
+    height: auto;
+    text-align: center;
+    box-shadow: 5px 5px 20px 0px #1d1b1b66;
+  }
+  .box2,.box3{
+    margin-top: 7rem;
+  }
+
+  .wrapper-box {
+    box-shadow: none;
+  }
+  .abtBox{
+    float: none;
+    width: 100%;
+  }
+  .abt-footer-left,.abt-footer-right{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .company-add,.form{
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+}
+
+@media(min-width: 501px) and (max-width:789px){
+  html{
+    font-size: 50%;
+
+  }
+  p{
+    font-size: 1.8rem;
+  }
+  .navbar .nav-items,.navbar .Logo{
+    float: none;
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .header-content a{
+    padding: .5em;
+    font-size: 2rem;
+    border-radius: 25px;
+
+  }
+  .row{
+    height: auto;
+    width: 100%;
+  }
+  .row .img-box, .row .text-box{
+    float: none;
+    width: 100%;
+    text-align: center;
+
+  }
+  .box{
+    float: none;
+    width:100%;
+    height: auto;
+    text-align: center;
+    box-shadow: 5px 5px 20px 0px #1d1b1b66;
+  }
+  .box2,.box3{
+    margin-top: 7rem;
+  }
+
+  .wrapper-box {
+    box-shadow: none;
+  }
+  .abtBox{
+    float: none;
+    width: 100%;
+  }
+  .abt-footer-left,.abt-footer-right{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .company-add,.form{
+    float: none;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+
+}
+
+@media(min-width: 790px) and (max-width:1200px){
+  html{
+    font-size: 56.25%;
+  }
 }
