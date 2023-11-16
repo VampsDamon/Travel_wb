@@ -37,14 +37,14 @@ h3 {
   margin-bottom: 0.5em;
   letter-spacing: 0.15em;
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 /* ###################### Utility Classes ######################  */
 
-.bg-dark{
+.bg-dark {
   background: #263238;
 }
-
 
 .container {
   max-width: 1200px;
@@ -108,7 +108,7 @@ h3 {
   position: relative;
   height: 95vh;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../img/header-image.jpg);
+    url(../img/125.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,110 +246,101 @@ row::after {
   margin: 2rem;
 }
 
-
-
 /* ################### About Page Styling ################ */
 
-.about{
+.about {
   padding: 5rem 0;
 }
-.about-heading::after{
-  content: '';
+.about-heading::after {
+  content: "";
   display: block;
   border: 3px solid #e63946;
   width: 100%;
 }
-.About-description{
-  padding: .8em 0;
+.About-description {
+  padding: 0.8em 0;
 }
-.about-content{
+.about-content {
   margin-top: 2rem;
   text-align: center;
 }
-.abtBox{
-    
-    font-weight: 500;
-    
+.abtBox {
+  font-weight: 500;
 }
-.abtBox1{
-   width: 50%;
-   float: left;
-  }
-  .abtBox2{
+.abtBox1 {
+  width: 50%;
+  float: left;
+}
+.abtBox2 {
   width: 50%;
   float: right;
 }
-.about-content::after{
-  content: '';
+.about-content::after {
+  content: "";
   display: block;
   clear: both;
 }
-.about-content li::before{
-  content: '\2713';
+.about-content li::before {
+  content: "\2713";
   color: #e63946;
   font-weight: bold;
   padding-right: 1rem;
 }
 
-
-.about-number{
+.about-number {
   margin-top: 3rem;
 }
-.abtnumber{
+.abtnumber {
   text-align: center;
   width: 25%;
   float: left;
 }
-.abtnumber h2{
+.abtnumber h2 {
   margin-bottom: 1rem;
   font-weight: 700;
   font-size: 3rem;
   color: #e63946;
-
 }
-.abtnumber p{
+.abtnumber p {
   font-weight: 700;
   color: #555555;
   font-size: 1.8rem;
 }
-.about-number::after{
-  content: '';
+.about-number::after {
+  content: "";
   display: block;
   clear: both;
 }
 
-
-.abt-footer{
+.abt-footer {
   margin-top: 2rem;
   padding: 1rem;
   color: #f4f4f4;
   background: linear-gradient(25deg, #d64c7f, #ee4758 50%);
   box-shadow: 5px 5px 10px #00000050;
 }
-.abt-footer-left{
+.abt-footer-left {
   float: left;
   width: 60%;
 }
-.abt-footer-right{
+.abt-footer-right {
   float: right;
   width: 40%;
   text-align: center;
   text-align: right;
-
 }
-.abt-footer::after{
-  content: '';
+.abt-footer::after {
+  content: "";
   display: block;
   clear: both;
 }
 
-.abt-footer-content{
+.abt-footer-content {
   font-weight: 700;
   font-size: 2rem;
   margin-top: 1.5rem;
-
 }
-.btn-abt{
+.btn-abt {
   text-align: center;
   display: inline-block;
   font-weight: 700;
@@ -359,27 +350,21 @@ row::after {
   padding: 0.3em 2.5em;
   letter-spacing: 0.5rem;
   color: #f4f4f4;
-
 }
-
 
 /* ##################################### CONTACT PAGE STYLING###################### */
-.contact-form{
+.contact-form {
   padding: 5rem 0;
   background: #f4f4f4;
-
-  
 }
-.form-wrapper{
- 
+.form-wrapper {
 }
-.form-wrapper::after{
-  content: '';
+.form-wrapper::after {
+  content: "";
   display: block;
   clear: both;
-
 }
-.company-add{
+.company-add {
   float: left;
   width: 48%;
   color: #555555;
@@ -388,139 +373,136 @@ row::after {
   padding: 1rem;
 }
 
-.form{
-  font-size:1.6rem ;
+.form {
+  font-size: 1.6rem;
   float: right;
   width: 48%;
   background-color: #fff;
   padding: 1rem;
   height: 740px;
 }
-.addinfo{
-  margin-bottom:3rem ;
-
+.addinfo {
+  margin-bottom: 3rem;
 }
 
-.company-add h2{
+.company-add h2 {
   text-transform: uppercase;
   font-weight: 400;
 }
-.company-add h2 i{
-  margin-right: .2em;
+.company-add h2 i {
+  margin-right: 0.2em;
 }
 
-.company-img{
-  
+.company-img {
   object-fit: cover;
   object-position: right;
   max-width: 90%;
   min-height: 40rem;
 }
-.form h2{
-  letter-spacing: .2em;
-    font-size: 2.5rem;
+.form h2 {
+  letter-spacing: 0.2em;
+  font-size: 2.5rem;
 }
-.form h2::after{
-  content: '';
+.form h2::after {
+  content: "";
   display: block;
   border: 3px solid #e63946;
   width: 100%;
 }
 
-label{
+label {
   display: block;
   font-size: 1.5rem;
 }
-label::after{
-  content: '*';
+label::after {
+  content: "*";
   color: #e63946;
 }
-input{
+input {
   width: 100%;
   padding: 0.5rem;
 }
 
-.form-inputs{
+.form-inputs {
   margin-bottom: 1.2rem;
 }
-textarea{
+textarea {
   width: 100%;
   height: 300px;
   padding: 1rem;
 }
 
-.summitBTN{
+.summitBTN {
   display: block;
   margin: 0 auto;
-  padding: .5em 3em;
+  padding: 0.5em 3em;
   font-size: 1.8rem;
   text-transform: uppercase;
   background: #e63946;
   color: #fff;
   outline: none;
   border: none;
-  cursor:pointer ;
-
+  cursor: pointer;
 }
-
 
 /* ######################### Media Queries ################# */
 
-
-@media (max-width: 500px){
-  html{
+@media (max-width: 500px) {
+  html {
     font-size: 50%;
-
   }
-  .navbar .nav-items,.navbar .Logo{
+  .navbar .nav-items,
+  .navbar .Logo {
     float: none;
     display: block;
     text-align: center;
     width: 100%;
   }
-  .header-content .descriptipn{
+  .header-content .descriptipn {
     display: none;
   }
-  .header-content a{
-    padding: .5em;
+  .header-content a {
+    padding: 0.5em;
     font-size: 2rem;
     border-radius: 25px;
-
   }
-  .row{
+  .row {
     height: auto;
     width: 100%;
   }
-  .row .img-box, .row .text-box{
+  .row .img-box,
+  .row .text-box {
     float: none;
     width: 100%;
     text-align: center;
-
   }
-  .box{
+  .box {
     float: none;
-    width:100%;
+    width: 100%;
     height: auto;
     text-align: center;
     box-shadow: 5px 5px 20px 0px #1d1b1b66;
   }
-  .box2,.box3{
+  .box2,
+  .box3 {
     margin-top: 7rem;
   }
 
   .wrapper-box {
     box-shadow: none;
   }
-  .abtBox{
+  .abtBox {
     float: none;
     width: 100%;
   }
-  .abt-footer-left,.abt-footer-right{
+  .abt-footer-left,
+  .abt-footer-right {
     float: none;
     width: 100%;
     text-align: center;
   }
-  .company-add,.form{
+  .company-add,
+  .form {
     float: none;
     width: 100%;
     height: auto;
@@ -528,71 +510,77 @@ textarea{
   }
 }
 
-@media(min-width: 501px) and (max-width:789px){
-  html{
+@media (min-width: 501px) and (max-width: 789px) {
+  html {
     font-size: 50%;
-
   }
-  p{
+  p {
     font-size: 1.8rem;
   }
-  .navbar .nav-items,.navbar .Logo{
+  .navbar .nav-items,
+  .navbar .Logo {
     float: none;
     display: block;
     text-align: center;
     width: 100%;
   }
-  
-  .header-content a{
-    padding: .5em;
+
+  .header-content a {
+    padding: 0.5em;
     font-size: 2rem;
     border-radius: 25px;
-
   }
-  .row{
+  .row {
     height: auto;
     width: 100%;
   }
-  .row .img-box, .row .text-box{
+  .row .img-box,
+  .row .text-box {
     float: none;
     width: 100%;
     text-align: center;
-
   }
-  .box{
+  .box {
     float: none;
-    width:100%;
+    width: 100%;
     height: auto;
     text-align: center;
     box-shadow: 5px 5px 20px 0px #1d1b1b66;
   }
-  .box2,.box3{
+  .box2,
+  .box3 {
     margin-top: 7rem;
   }
 
   .wrapper-box {
     box-shadow: none;
   }
-  .abtBox{
+  .abtBox {
     float: none;
     width: 100%;
   }
-  .abt-footer-left,.abt-footer-right{
+  .abt-footer-left,
+  .abt-footer-right {
     float: none;
     width: 100%;
     text-align: center;
   }
-  .company-add,.form{
+  .company-add,
+  .form {
     float: none;
     width: 100%;
     height: auto;
     margin-bottom: 5rem;
   }
-
 }
 
-@media(min-width: 790px) and (max-width:1200px){
-  html{
+@media (min-width: 790px) and (max-width: 1200px) {
+  html {
     font-size: 56.25%;
   }
+}
+
+
+.ext{
+  margin-top: 10rem;
 }
